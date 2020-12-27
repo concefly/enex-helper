@@ -1,6 +1,6 @@
 {
   "name": "enex-html",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "dependencies": {
     "@types/lodash.escape": "^4.0.6",
     "ah-xml": "*",
-    "enex-model": "*",
+    "enex-model": "^0.0.1",
     "lodash.escape": "^4.0.1"
   },
   "devDependencies": {
