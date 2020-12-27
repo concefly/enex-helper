@@ -1,7 +1,7 @@
 {
-  "name": "enex-pdf",
-  "version": "1.0.0",
-  "description": "印象笔记 PDF 转换",
+  "name": "enex-helper",
+  "version": "0.0.0",
+  "description": "印象笔记工具集",
   "main": "index.js",
   "devDependencies": {
     "lerna": "^3.22.1"
