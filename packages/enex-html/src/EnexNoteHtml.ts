@@ -10,7 +10,7 @@ export class EnexNoteHtml {
         const tag = n.tagName;
 
         const attrStr = Array.from(n.attributes.entries())
-          .map(([n, v]) => `${n}="${escape(v)}"`)
+          .map(([_n, _v]) => `${_n}="${escape(_v)}"`)
           .join(' ');
 
         if (tag === 'en-media') {
