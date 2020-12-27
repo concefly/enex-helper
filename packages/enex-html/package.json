@@ -1,0 +1,23 @@
+{
+  "name": "enex-html",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "ci": "ah-workflow ci",
+    "build": "ah-workflow build",
+    "prepublishOnly": "npm run ci && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash.escape": "^4.0.6",
+    "ah-xml": "*",
+    "enex-model": "*",
+    "lodash.escape": "^4.0.1"
+  },
+  "devDependencies": {
+    "ah-workflow": "^1.0.5",
+    "typescript": "^4.1.3"
+  }
+}
